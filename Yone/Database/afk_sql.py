@@ -2,7 +2,7 @@ import threading
 
 from datetime import datetime
 
-from Yone.Database import BASE, SESSION
+from Kushina.Database import BASE, SESSION
 from sqlalchemy import Boolean, Column, BigInteger, UnicodeText, DateTime
 
 
