@@ -1,5 +1,5 @@
-from kushina.Handlers.telethon import IMMUNE_USERS, telethn
-from kushina import REQUESTER
+from Kushina.Handlers.telethon import IMMUNE_USERS, telethn
+from Kushina import REQUESTER
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
