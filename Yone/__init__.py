@@ -79,7 +79,7 @@ if ENV:
 
 
 else:
-    from Yone.config import Development as Config
+    from Kushina.config import Development as Config
 
     try:
         OWNER_ID = int(Config.OWNER_ID)
