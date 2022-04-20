@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, Boolean
 
-from Yone.Database import SESSION, BASE
+from Kushina.Database import SESSION, BASE
 
 
 class Permissions(BASE):
