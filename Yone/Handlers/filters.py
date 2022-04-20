@@ -1,4 +1,4 @@
-from Yone import DEV_USERS, INSPECTOR, REQUESTER
+from Kushina import DEV_USERS, INSPECTOR, REQUESTER
 from telegram import Message
 from telegram.ext import MessageFilter
 
