@@ -1,7 +1,7 @@
 from math import ceil
 from typing import Dict, List
 from telegram import InlineKeyboardButton, MAX_MESSAGE_LENGTH, ParseMode, Bot
-from Yone import NO_LOAD
+from Kushina import NO_LOAD
 from telegram.error import TelegramError
 
 
@@ -47,11 +47,11 @@ def paginate_modules(page_n: int, module_dict: Dict, prefix, chat=None) -> List:
     if len(pairs) > 10:
         pairs = pairs[modulo_page * 10:10 * (modulo_page + 1)] + [
             (EqInlineKeyboardButton("⮜", callback_data="{}_prev({})".format(prefix, modulo_page)),
-                EqInlineKeyboardButton("Back", callback_data="yone_back"),
+                EqInlineKeyboardButton("Back", callback_data="kushina_back"),
              EqInlineKeyboardButton("⮞", callback_data="{}_next({})".format(prefix, modulo_page)))]
 
     else:
-        pairs += [[EqInlineKeyboardButton("Back", callback_data="yone_back")]]
+        pairs += [[EqInlineKeyboardButton("Back", callback_data="kushina_back")]]
 
     return pairs
 
