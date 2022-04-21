@@ -84,7 +84,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
+A telegram group management bot. I'm here to help you to manage your groups[🤖](https://telegra.ph/file/16de613b49d396f19dd99.jpg).
 I have lots of handy features such as:
 ‣ Warning system
 ‣ Artificial intelligence
