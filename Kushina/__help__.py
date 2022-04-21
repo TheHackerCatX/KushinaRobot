@@ -11,7 +11,7 @@ from os.path import isfile
 
 
 HELP_STRINGS = """Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with. """.format(
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with[🤖](https://telegra.ph/file/16de613b49d396f19dd99.jpg). """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
