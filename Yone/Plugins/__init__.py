@@ -3,14 +3,14 @@
 # Copyright (c) 2022, Kushal
 # All rights reserved.
 
-from Yone import LOAD, LOGGER, NO_LOAD
+from Kushina import LOAD, LOGGER, NO_LOAD
 
 
 def __list_all_modules():
     import glob
     from os.path import basename, dirname, isfile
     import os
-    path =r'./Yone/Plugins/'
+    path =r'./Kushina/Plugins/'
     list_of_files = []
 
     for root, dirs, files in os.walk(path):
